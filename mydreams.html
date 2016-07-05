@@ -1,0 +1,125 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>this is my site yo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>kems awesome website</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="#section1"><a href="home.html"> home</a></a></li>
+        <li class="active"><a href="#section2"><a href="mydreams.html">my dreams</a> </a></li>
+        <li><a href="#section3"><a href="rolemodel.html">role model</a></a></li>
+        <li><a href="#section3"><a href="photos.html">photos</a></a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h1>Dreams</h1>
+      <hr>
+      <h2>What is a dream?</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by kem privado, jan 27, 2015.</h5>
+      <h5><span class="label label-danger">stuff</span> <span class="label label-primary">other stuff</span></h5><br>
+      <p>A dream is a goal, an assperation you want to achieve. If you are able to achieve your "Dream" on 10 years, it's not a dream. Thats just a goal. You should have to be constantly working towards that dream, going step by step, going goal by goal. </p>
+      <br><br>
+      
+      <h4><small>other things</small></h4>
+      <hr>
+      <h2>Work at google</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by kem privado, july 24, 2015.</h5>
+      <h5><span class="label label-success">nice</span></h5><br>
+      <p>Google is literally the best place to work at. They feed you, wash your cloths, etc. If you work there, you're set. I want to get a job either as a developer or in a managment position. I will major in both so i should be good. I want to apply for an internship first, then they will see how essential my way of thinking is, amd with that ill land myself a job there. With that, i will work my way up into a pretty high position, maybe senior developer, or head of marketing. I want to be a seen as an authority at google, that is my drem.</p>
+      <hr>
+
+      <h4>Leave a Comment:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">view all 23 commments</span> Comments:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="bandmember.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>some dued <small>august 29, 2015, 9:12 PM</small></h4>
+          <p>Keep up the GREAT work! I am cheering for you!! You will make it to google!!!</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Jane doe <small>december 25, 2015, 8:25 PM</small></h4>
+          <p>I am so happy for you man! You'll definatley make it up there man, and if not, you're still going to be succesful!!</p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>other random dude <small>october 25, 2015, 8:28 PM</small></h4>
+              <p>Me too! WOW!</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>WHAT DID I TELL YOU</p>
+</footer>
+
+</body>
+</html>
